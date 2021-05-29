@@ -1,8 +1,8 @@
 def fizzbuzz():
 	array = []
-	for x in range(1,100): 
+	for x in range(1,101): 
 		num = x
-		if (num%3==0 and num%5==0):
+		if (num%3==0 and num%5==0 and num==15):
 			num = "FizzBuzz"
 		elif (num%3 == 0):
 			num = "Fizz"
