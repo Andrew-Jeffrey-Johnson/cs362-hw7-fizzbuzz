@@ -18,6 +18,11 @@ class testCaseFizzBuzz(unittest.TestCase):
 		for x in range(1,101):
 			if (x%3==0 and x%5 != 0):
 				self.assertEqual(fizzbuzz.fizzbuzz()[x-1], "Fizz")
+	
+	def test_print_all_buzz(self):
+		for x in range(1,101):
+			if (x%3!=0 and x%5 == 0):
+				self.assertEqual(fizzbuzz.fizzbuzz()[x-1], "Buzz")
 
 	if __name__ == '__main__':
 		unittest.main()
