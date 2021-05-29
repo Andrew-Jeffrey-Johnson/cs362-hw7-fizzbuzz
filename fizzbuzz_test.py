@@ -11,5 +11,8 @@ class testCaseFizzBuzz(unittest.TestCase):
 	def test_print_buzz(self):
 		self.assertEqual(fizzbuzz.fizzbuzz()[4], "Buzz")
 
+	def test_print_buzz(self):
+		self.assertEqual(fizzbuzz.fizzbuzz()[14], "FizzBuzz")
+
 	if __name__ == '__main__':
 		unittest.main()
