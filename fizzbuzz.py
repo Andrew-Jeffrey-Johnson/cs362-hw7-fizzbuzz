@@ -1,6 +1,6 @@
 def fizzbuzz():
 	array = []
-	for x in range(1,80): 
+	for x in range(1,100): 
 		num = x
 		if (num%3==0 and num%5==0):
 			num = "FizzBuzz"
